@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "e2e-mocks": ".."
+  },
+  "devDependencies": {
+    "hono": "^4.7.2"
+  }
+}

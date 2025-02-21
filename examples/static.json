@@ -1,0 +1,18 @@
+[
+  {
+    "path": "hello",
+    "method": "GET",
+    "response": {
+      "status": 200,
+        "body": "Hello, World!"
+    }
+  },
+  {
+    "path": "world",
+    "method": "GET",
+    "response": {
+      "status": 200,
+      "body": "World, Hello!"
+    }
+  }
+]
