@@ -27,7 +27,7 @@ if (!argv.noBanner) {
     const { addLine, addBanner, build } = getHeaderGenerator(cyan);
     addBanner("E2E-Mocks");
     addLine(gray`DO NOT USE THIS IN PRODUCTION!`);
-    addLine(gray`This is a tool for `, red`integration tests only`, gray`.`);
+    addLine(gray`This is a tool for `, red`Frontend integration tests only`, gray`.`);
     console.log(build())
 }
 
