@@ -1,5 +1,5 @@
-import {cloneDeep} from "lodash";
-import type {StateHandler} from "@/types/StateHandler.ts";
+import {cloneDeep} from "@/utils/CloneDeep";
+import type {StateHandler} from "@/types/StateHandler";
 
 export function createState<T>(id: string, init: () => T): StateHandler<T> {
     let state = cloneDeep(init());
